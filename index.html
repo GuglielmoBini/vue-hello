@@ -18,5 +18,11 @@
 
     <title>Hello Vue</title>
   </head>
-  <body></body>
+  <body>
+    <div id="root">
+      <h1>{{ message }}</h1>
+
+      <img v-bind:src="pic.img" :alt="pic.alt" />
+    </div>
+  </body>
 </html>
